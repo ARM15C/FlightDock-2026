@@ -1,0 +1,21 @@
+sigma,pool,arm,pairs,arm_captures,pid_captures,arm_rate,pid_rate,diff_pp,newcombe_lo,newcombe_hi,boot_lo,boot_hi,judged,value_clears_+15,tie_at_+15,value_clears_+5,tie_at_+5,value_clears_+0,tie_at_+0
+0.25,strong wind (6-8 m/s),FlightDock-A2 (no offset),180,104,111,57.8,61.7,-3.89,-13.9,6.2,-14.4,6.7,True,False,False,False,False,False,False
+0.25,strong wind (6-8 m/s),FlightDock-A2O (+0.25 m offset),180,94,111,52.2,61.7,-9.44,-19.4,0.8,-22.2,3.3,True,False,False,False,False,False,False
+0.25,strong wind (6-8 m/s),FlightDock-S1 (no offset),180,132,111,73.3,61.7,11.67,1.9,21.1,2.8,21.1,True,False,False,True,False,True,False
+0.25,strong wind (6-8 m/s),FlightDock-S1O (+0.25 m offset),180,129,111,71.7,61.7,10.0,1.0,18.8,0.0,20.0,True,False,False,True,False,True,False
+0.25,strong wind (6-8 m/s),"PIDO (PID-baseline, +0.25 m offset)",180,123,111,68.3,61.7,6.67,-2.3,15.4,-3.3,16.7,False,False,False,True,False,True,False
+0.25,nine wind stages,FlightDock-A2 (no offset),540,334,312,61.9,57.8,4.07,-1.8,9.9,-1.9,10.2,True,False,False,False,False,True,False
+0.25,nine wind stages,FlightDock-A2O (+0.25 m offset),540,300,312,55.6,57.8,-2.22,-8.2,3.8,-8.0,3.3,True,False,False,False,False,False,False
+0.25,nine wind stages,FlightDock-S1 (no offset),540,376,312,69.6,57.8,11.85,6.0,17.6,6.5,17.6,True,False,False,True,False,True,False
+0.25,nine wind stages,FlightDock-S1O (+0.25 m offset),540,363,312,67.2,57.8,9.44,3.9,14.9,4.3,14.6,True,False,False,True,False,True,False
+0.25,nine wind stages,"PIDO (PID-baseline, +0.25 m offset)",540,365,312,67.6,57.8,9.81,4.4,15.2,4.1,15.7,False,False,False,True,False,True,False
+0.35,strong wind (6-8 m/s),FlightDock-A2 (no offset),180,71,42,39.4,23.3,16.11,6.7,25.1,7.8,24.4,True,True,False,True,False,True,False
+0.35,strong wind (6-8 m/s),FlightDock-A2O (+0.25 m offset),180,67,42,37.2,23.3,13.89,4.6,22.9,4.4,22.8,True,False,False,True,False,True,False
+0.35,strong wind (6-8 m/s),FlightDock-S1 (no offset),180,59,42,32.8,23.3,9.44,1.0,17.7,-0.6,18.9,True,False,False,True,False,True,False
+0.35,strong wind (6-8 m/s),FlightDock-S1O (+0.25 m offset),180,71,42,39.4,23.3,16.11,6.9,25.0,5.5,26.7,True,True,False,True,False,True,False
+0.35,strong wind (6-8 m/s),"PIDO (PID-baseline, +0.25 m offset)",180,56,42,31.1,23.3,7.78,-0.9,16.3,-1.7,17.2,False,False,False,True,False,True,False
+0.35,nine wind stages,FlightDock-A2 (no offset),540,216,113,40.0,20.9,19.07,13.6,24.4,14.6,23.7,True,True,False,True,False,True,False
+0.35,nine wind stages,FlightDock-A2O (+0.25 m offset),540,207,113,38.3,20.9,17.41,12.2,22.5,11.8,22.8,True,True,False,True,False,True,False
+0.35,nine wind stages,FlightDock-S1 (no offset),540,168,113,31.1,20.9,10.19,5.4,14.9,5.0,15.2,True,False,False,True,False,True,False
+0.35,nine wind stages,FlightDock-S1O (+0.25 m offset),540,217,113,40.2,20.9,19.26,14.1,24.3,13.3,24.8,True,True,False,True,False,True,False
+0.35,nine wind stages,"PIDO (PID-baseline, +0.25 m offset)",540,146,113,27.0,20.9,6.11,1.3,10.9,1.7,10.7,False,False,False,True,False,True,False

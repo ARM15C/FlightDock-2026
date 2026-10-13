@@ -1,0 +1,28 @@
+# MAVProxy Headless Initialization Script
+# Location: /home/user/FlightDock/config/mavproxy_headless_init.scr
+# Purpose: Configure MAVProxy for headless SITL testing (no GUI)
+#
+# This script is used instead of mavproxy_msl_init.scr when HEADLESS=1
+# to avoid loading the console module which crashes without X display.
+#
+# ========== HEADLESS MODE ==========
+# No modules loaded - console requires GUI
+# ====================================
+
+# v9.10 Gate0 Fix: GCS Rate Conflict Kill-Switch
+# Prevent MAVProxy from overriding SR0_EXTRA1=20 with its own stream rates.
+# This ensures ATTITUDE messages flow at the 20Hz configured in .parm file,
+# not the MAVProxy default rate which can drop to 4Hz.
+set streamrate -1
+
+# v9.10 Gate0 Fix: Explicit message rate override (belt-and-suspenders)
+# Load messagerate module and explicitly set ATTITUDE to 20 Hz.
+# This provides a runtime override in case param file settings don't take effect.
+module load messagerate
+messagerate set ATTITUDE 20
+
+# UWB SIM_STATE Truth Source (added 2026-04-29):
+# Stream noise-free follower truth at 20 Hz for the UWB emitter to use as
+# GPS-noise-immune range computation. Default emitter behavior is unchanged
+# unless HARNESS_UWB_TRUTH_SOURCE=sim_state.
+messagerate set SIM_STATE 20

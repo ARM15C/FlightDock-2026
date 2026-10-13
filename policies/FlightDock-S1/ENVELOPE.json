@@ -1,0 +1,22 @@
+{
+ "CRRL_BPC_FLOOR_NEG": [
+  0.25,
+  0.0,
+  1.0
+ ],
+ "CRRL_BPC_FLOOR_POS": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "CRRL_BPC_BETA": [
+  0.3,
+  0.3,
+  0.3
+ ],
+ "terminal_states": [
+  "DOCKING_CREEP",
+  "HOLD_CONTACT"
+ ],
+ "note": "the policy is reproducible ONLY inside this envelope; the floor is part of the action space"
+}

@@ -1,0 +1,7 @@
+arm,"H2 verdict (bound rule, nine stages)",same-seed pairs,"docking-envelope captures, arm","docking-envelope captures, PID-baseline (comparator)",paired difference (pp),two-sided 95% seed-cluster bootstrap interval (pp),one-sided bootstrap p (H0: difference <= 0),pairs only the arm captured / only the PID-baseline captured
+S1O,H2 met,540,363 (67.2%),312 (57.8%),+9.44,"[+4.26, +14.63]",0.0004,143 / 92
+S1,H2 met,540,376 (69.6%),312 (57.8%),+11.85,"[+6.48, +17.59]",0.0001,163 / 99
+A2O,H2 not met,540,300 (55.6%),312 (57.8%),-2.22,"[-7.96, +3.33]",0.7903,133 / 145
+A2,H2 not met,540,334 (61.9%),312 (57.8%),+4.07,"[-1.85, +10.19]",0.0981,142 / 120
+PIDO,comparator (not graded),540,365 (67.6%),312 (57.8%),+9.81,"[+4.07, +15.74]",0.0004,140 / 87
+PID,baseline comparator (not graded),540,,,0.00,,,

@@ -1,0 +1,73 @@
+# MAVProxy Initialization Script for MSL-First Altitude Display
+# Location: /home/user/FlightDock/config/mavproxy_msl_init.scr
+# Purpose: Configure MAVProxy for formation SITL testing
+#
+# This script is automatically loaded by MAVProxy on startup via the
+# --cmd parameter in start_formation_sitl_fixed.sh
+#
+# CMAC Canberra Home Location:
+#   Latitude: -35.363261
+#   Longitude: 149.165230
+#   MSL Altitude: 584m (Mean Sea Level)
+#   Heading: 353 deg (North)
+#
+# MSL Altitude Convention:
+#   - All altitude operations use MSL (Mean Sea Level) reference
+#   - Home altitude: 584m MSL
+#   - Contact Position (DHC-2 Beaver): 900m MSL (316m AGL)
+#   - Precontact Position (QuadPlane): 890m MSL (306m AGL)
+#   - Vertical separation: 10m
+#
+# Test 230 Cleanup:
+#   - Removed all echo statements (not supported by MAVProxy)
+#   - Removed ${variable} substitution (not supported)
+#   - Removed alias definitions with arithmetic (not supported)
+#   - Commented out graph module to avoid matplotlib/Axes3D warning
+#
+# Valid MAVProxy script commands:
+#   - module load <name>
+#   - set <param> <value>
+#   - param set <name> <value>
+#   - mode <modename>
+#   - Comments starting with #
+
+# ========== STREAM RATE CONFIGURATION ==========
+
+# v9.10 Gate0 Fix: GCS Rate Conflict Kill-Switch
+# Prevent MAVProxy from overriding SR0_EXTRA1=20 with its own stream rates.
+# This ensures ATTITUDE messages flow at the 20Hz configured in .parm file,
+# not the MAVProxy default rate which can drop to 4Hz.
+set streamrate -1
+
+# v9.10 Gate0 Fix: Explicit message rate override (belt-and-suspenders)
+# Load messagerate module and explicitly set ATTITUDE to 20 Hz.
+# This provides a runtime override in case param file settings don't take effect.
+module load messagerate
+messagerate set ATTITUDE 20
+
+# UWB SIM_STATE Truth Source (added 2026-04-29):
+# Stream noise-free follower truth (SIM_STATE, msg id 108) at 20 Hz so the UWB
+# emitter can compute GPS-noise-immune ranges. The emitter consumes it via the
+# dedicated MAVProxy --out=udp:14555+offset port. Default behavior unchanged
+# unless HARNESS_UWB_TRUTH_SOURCE=sim_state is set.
+messagerate set SIM_STATE 20
+
+# ========== MODULE CONFIGURATION ==========
+
+# Graph module commented out to avoid matplotlib/Axes3D import warning
+# The warning "Unable to import Axes3D" is harmless but creates log noise
+# Uncomment if you need real-time graphing and don't mind the warning:
+# module load graph
+
+# Console module for message display
+module load console
+
+# ========== END OF INITIALIZATION ==========
+#
+# Manual commands for altitude monitoring (type in MAVProxy console):
+#   status                        - Show vehicle state including altitude
+#   watch add GLOBAL_POSITION_INT - Watch position updates
+#   mode GUIDED                   - Ensure GUIDED mode
+#
+# Manual commands for formation verification:
+#   Look for "[FORM_LEAD]" or "Tracking lead aircraft" in console output

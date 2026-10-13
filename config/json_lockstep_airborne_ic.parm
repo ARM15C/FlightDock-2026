@@ -1,0 +1,12 @@
+# JSON-lockstep airborne IC override for the TRAINING env (#309 P1 Option-1 addendum,
+# ). Content == the census-validated j5a_ic.parm (analysis/
+# jsonlockstep_j5a_20260622T210315Z/), copied into config/ so src/ never references
+# analysis/. Appended LAST to SITL --defaults via the launcher's FD_EXTRA_DEFAULTS hook,
+# ONLY when FD_TRAIN_BACKEND=json.
+#
+# Autopilot-side analog of the FSM's skip_takeoff: the baseline sets INITIAL_MODE=19
+# (QLOITER) for a GROUND VTOL takeoff; the JSON FDM spawns AIRBORNE in fixed-wing cruise
+# (alt 306 AGL, 24.7 m/s), so the autopilot must boot in a fixed-wing mode (FBWA=5) to
+# avoid the QLOITER boot + VTOL->FW transition. Everything else (incl. Q_ASSIST_SPEED=8,
+# Q_ENABLE=1, Q_GUIDED_MODE=0) is INHERITED unchanged from quadplane_formation_mav_clean.parm.
+INITIAL_MODE 5

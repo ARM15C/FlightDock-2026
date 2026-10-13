@@ -1,0 +1,7 @@
+arm,paired legs,first flight (in the sigma 0.25 corpus),second flight (in the sigma 0.35 corpus),"change, second minus first (pp)",change: two-sided 95 % Newcombe (pp),legs that flipped,success lost,success gained,legs identical in outcome
+FlightDock-A2,60,"17 of 60, 28.3 % [18.5, 40.8]","15 of 60, 25.0 % [15.8, 37.2]",-3.3,"[-17.7, +11.2]",20,11,9,40
+FlightDock-A2O,60,"11 of 60, 18.3 % [10.6, 29.9]","6 of 60, 10.0 % [4.7, 20.1]",-8.3,"[-20.4, +3.6]",13,9,4,47
+FlightDock-S1,60,"50 of 60, 83.3 % [72.0, 90.7]","49 of 60, 81.7 % [70.1, 89.4]",-1.7,"[-16.0, +12.7]",19,10,9,41
+FlightDock-S1O,60,"38 of 60, 63.3 % [50.7, 74.4]","47 of 60, 78.3 % [66.4, 86.9]",+15.0,"[-0.4, +29.5]",23,7,16,37
+PID-baseline (comparator),60,"57 of 60, 95.0 % [86.3, 98.3]","60 of 60, 100.0 % [94.0, 100.0]",+5.0,"[-1.9, +13.7]",3,0,3,57
+PIDO,60,"54 of 60, 90.0 % [79.9, 95.3]","56 of 60, 93.3 % [84.1, 97.4]",+3.3,"[-6.7, +13.7]",8,3,5,52

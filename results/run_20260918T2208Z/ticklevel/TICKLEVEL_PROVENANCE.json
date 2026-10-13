@@ -1,0 +1,78 @@
+{
+ "source": "/home/ubuntu/FlightDock/analysis/abortrec_20260904T2200Z",
+ "files": {
+  "abort_build.py": {
+   "source_sha256": "12cc47fefc6786a382a93d22e2ddf67eb07576e599721d30d009f19b208c90cf",
+   "copy_sha256": "12cc47fefc6786a382a93d22e2ddf67eb07576e599721d30d009f19b208c90cf"
+  },
+  "abort_common.py": {
+   "source_sha256": "cd77d1fb26a4ebefa9599fc8debd2ec11324fed7b3f372234d4e90157bd17138",
+   "copy_sha256": "04a398feb46a4b9079eeaa26919e19e2521e7a13c666a20ef950e5323f4ae800"
+  },
+  "abort_eligible.py": {
+   "source_sha256": "e34ad0ef7835375a9129c7a4e0fa2d1fe4e6915d98bd4651e815d07dbdc3aa4a",
+   "copy_sha256": "e34ad0ef7835375a9129c7a4e0fa2d1fe4e6915d98bd4651e815d07dbdc3aa4a"
+  },
+  "abort_events.py": {
+   "source_sha256": "c8bdb38b2558281a418ea0c3a094100fa114a41bfdad33007ce2bdf27427b4dc",
+   "copy_sha256": "c8bdb38b2558281a418ea0c3a094100fa114a41bfdad33007ce2bdf27427b4dc"
+  },
+  "abort_glm.py": {
+   "source_sha256": "6470f064c2bd4256b7b8cfe816255bad3a8e5f6f5bd00e9085114d7bd4669126",
+   "copy_sha256": "6470f064c2bd4256b7b8cfe816255bad3a8e5f6f5bd00e9085114d7bd4669126"
+  },
+  "abort_impact.py": {
+   "source_sha256": "e109255993ef183d96ee3d9a83ed0fa3df41251718d2823a627a50f12e218e92",
+   "copy_sha256": "e109255993ef183d96ee3d9a83ed0fa3df41251718d2823a627a50f12e218e92"
+  },
+  "abort_limbs.py": {
+   "source_sha256": "f699a4795b4d782bd5fb7ebfd62ffac3670520084192a0492a5d91266cb56d45",
+   "rebased_literals": 2,
+   "copy_sha256": "b28e89f55aec5e9ffe2a71dd93f13c31bc59ec1813d8b2a7cf19126963fd3bc9"
+  },
+  "abort_limbs_recon.py": {
+   "source_sha256": "f99969c462bf4085663f24a1ffffe61511ac7603d8dc62c4c7647e22f6861717",
+   "copy_sha256": "f99969c462bf4085663f24a1ffffe61511ac7603d8dc62c4c7647e22f6861717"
+  },
+  "abort_limbs_window.py": {
+   "source_sha256": "a47ff35f9ae379a20fd182717700b81f845623e12845b456a05b32153d6e8187",
+   "copy_sha256": "a47ff35f9ae379a20fd182717700b81f845623e12845b456a05b32153d6e8187"
+  },
+  "abort_pass.py": {
+   "source_sha256": "66e17756d5a2a536aae37972a9d7277036b25aef1e1ea1a392b14d8b655b4788",
+   "copy_sha256": "66e17756d5a2a536aae37972a9d7277036b25aef1e1ea1a392b14d8b655b4788"
+  },
+  "abort_recovery.py": {
+   "source_sha256": "6d330f0d9217f0d5a0330da8c834b65168d297ea4f59557b4cf9fc5cf497a819",
+   "copy_sha256": "6d330f0d9217f0d5a0330da8c834b65168d297ea4f59557b4cf9fc5cf497a819"
+  },
+  "abort_recovery_run.py": {
+   "source_sha256": "219e4958a5fdb02f2efeb759281e7da80ffa6eeadc8a64d2ce6927f12f6aec6e",
+   "copy_sha256": "219e4958a5fdb02f2efeb759281e7da80ffa6eeadc8a64d2ce6927f12f6aec6e"
+  },
+  "abort_tables.py": {
+   "source_sha256": "d074ba8f2c223b3dc92ef32407fef45be00430821eb64db4663bbf1afe7ec225",
+   "copy_sha256": "d074ba8f2c223b3dc92ef32407fef45be00430821eb64db4663bbf1afe7ec225"
+  },
+  "abort_ticks.py": {
+   "source_sha256": "a10b901d7c4c96428b9bc7ec494972e2b1007336a062664b6bc547e6a3404005",
+   "copy_sha256": "a10b901d7c4c96428b9bc7ec494972e2b1007336a062664b6bc547e6a3404005"
+  },
+  "abort_window.py": {
+   "source_sha256": "72078beda17b57cd379eed756568e508d5d0900e0e21609614dea936991d4d48",
+   "copy_sha256": "72078beda17b57cd379eed756568e508d5d0900e0e21609614dea936991d4d48"
+  },
+  "abort_window_run.py": {
+   "source_sha256": "4a727800c319ccb4a8ad1abc371f1a2b8fe1608458b88308683d204489caf680",
+   "copy_sha256": "4a727800c319ccb4a8ad1abc371f1a2b8fe1608458b88308683d204489caf680"
+  },
+  "abort_witness.py": {
+   "source_sha256": "6ee81b80d6f9fa0b307b3fced89a2e7114adaeacaf71d43412942aaa28d6ed2f",
+   "copy_sha256": "6ee81b80d6f9fa0b307b3fced89a2e7114adaeacaf71d43412942aaa28d6ed2f"
+  }
+ },
+ "repoints": [
+  "abort_common.py: corpus block -> twelve tags bound into /home/ubuntu/paper_ch3_session/rescore_20260915/run_20260918T2208Z/ticklevel",
+  "abort_limbs.py: 2 literal 3600 -> 600 * len(A.TAGS)"
+ ]
+}

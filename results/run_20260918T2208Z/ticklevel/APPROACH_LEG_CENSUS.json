@@ -1,0 +1,62 @@
+{
+ "A2P025": {
+  "never_within_10m": 18,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "A2P035": {
+  "never_within_10m": 44,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "CSV025": {
+  "never_within_10m": 27,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "CSV035": {
+  "never_within_10m": 60,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "ARMB025": {
+  "never_within_10m": 23,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "ARMB035": {
+  "never_within_10m": 62,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "S1A25": {
+  "never_within_10m": 19,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "S1A35": {
+  "never_within_10m": 58,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "A2V25": {
+  "never_within_10m": 15,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "A2V35": {
+  "never_within_10m": 47,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "PIDO25": {
+  "never_within_10m": 23,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ },
+ "PIDO35": {
+  "never_within_10m": 49,
+  "legs": 600,
+  "source": "board/BOARD_W10.csv win null (windowed_rescore at 10.0 m)"
+ }
+}

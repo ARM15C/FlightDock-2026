@@ -1,0 +1,8 @@
+lineage,policy_name_in_paper,dispatch,leg,stage_index,stage_label,wind_ms,sigma_train,floor_neg_alt_m,floor_pos,vertical_offset_m,steps_trained_this_stage,cumulative_steps_lineage,gate_k,gate_n,gate_rule,gate_result,decision,decision_source,critic_reset,checkpoint_sha,ended_by
+SHARED,(common ancestor),ckptladder_20260821T1120Z,gate_D1a,,,,,,,,,,,,,,,,,1599d7bd,warm start -- the last checkpoint the two lineages share
+A2,FlightDock-A2,reramp811 (eval1 rollback arm),1,30,P1a,6.0,0.15,1.0,"(0,0,0)",0.0,96000,96000,,,mid12,,,,yes (leg 1 only: --fresh-buffer --reset-critic --actor-freeze),,budget
+A2,FlightDock-A2,reramp811 (eval1 rollback arm),2,31,P1,6.0,0.2,1.0,"(0,0,0)",0.0,48000,144000,9,12,mid12,promote,"gate-promoted; frozen on eval1, never examined at this stage",TODO-A2-EXAM (source col: RERAMP_READOUT.json on eval1),no,cc9d101d,budget
+A2,FlightDock-A2,a2match075_20260827T1745Z,1,31,P1,6.0,0.2,0.75,"(0,0,0)",0.0,48000,192000,,,mid12,,"admitted to the vault 2026-08-28T18:35:48Z",vault MANIFEST.json + dossier,"yes (fresh buffer, critic reset, actor freeze 5,000/10,000)",3d1cf6ca,"budget (plan 48,000 = flown 48,000)"
+S,FlightDock-S1,reramp811s_20260825T0515Z,1,30,P1a,6.0,0.15,1.0,"(0,0,0)",0.0,96000,96000,,,mid12,,,,yes (leg 1 only: --fresh-buffer --reset-critic --actor-freeze),,budget
+S,FlightDock-S1,reramp811s_20260825T0515Z,2,31,P1,6.0,0.2,1.0,"(0,0,0)",0.0,48000,144000,,,mid12,,admitted to the vault as CAND-S-leg2-F100,vault MANIFEST.json,no,1c10887a,budget
+S,FlightDock-S1,candssw_20260830T2300Z,1,23,D1b,6.0,0.25,1.0,"(0,0,0)",0.0,46000,190000,,,mid12,,hold-1 released by the operator WITH the shaping amendment,CANDSSW dossier + prereg signature,,34c7f116,"budget (46,000 of 46,000 signed; ladder nominal for stage 23 is 48,000)"

@@ -1,0 +1,19 @@
+arm,stage,n,capture rate,terminal-approach-corridor p95 (m),p95 bootstrap 95 %,legs over 2.00 m,overtake legs,altitude-guard fires,overtake-guard fires
+FlightDock-A2 (no offset),S0 calm control stage (turbulence off),60,"28.3 % [18.5, 40.8]",0.351,"[0.291, 0.402]",0,1,0,65
+FlightDock-A2 (no offset),"0 m/s mean-wind stage, sigma (σ) 0.25",60,"65.0 % [52.4, 75.8]",1.536,"[1.470, 1.695]",0,0,2,10
+FlightDock-A2 (no offset),"0 m/s mean-wind stage, sigma (σ) 0.35",60,"41.7 % [30.1, 54.3]",2.173,"[2.101, 2.360]",17,2,21,4
+FlightDock-A2O (+0.25 m offset),S0 calm control stage (turbulence off),60,"18.3 % [10.6, 29.9]",0.29,"[0.180, 0.358]",0,0,0,39
+FlightDock-A2O (+0.25 m offset),"0 m/s mean-wind stage, sigma (σ) 0.25",60,"58.3 % [45.7, 69.9]",1.761,"[1.576, 1.867]",1,0,1,10
+FlightDock-A2O (+0.25 m offset),"0 m/s mean-wind stage, sigma (σ) 0.35",60,"31.7 % [21.3, 44.2]",2.27,"[2.150, 2.543]",15,4,15,8
+FlightDock-S1 (no offset),S0 calm control stage (turbulence off),60,"83.3 % [72.0, 90.7]",0.853,"[0.570, 0.971]",0,0,0,126
+FlightDock-S1 (no offset),"0 m/s mean-wind stage, sigma (σ) 0.25",60,"63.3 % [50.7, 74.4]",2.212,"[2.043, 2.304]",11,2,12,14
+FlightDock-S1 (no offset),"0 m/s mean-wind stage, sigma (σ) 0.35",60,"25.0 % [15.8, 37.2]",2.396,"[2.225, 2.696]",23,3,31,6
+FlightDock-S1O (+0.25 m offset),S0 calm control stage (turbulence off),60,"63.3 % [50.7, 74.4]",0.67,"[0.440, 0.708]",0,2,0,105
+FlightDock-S1O (+0.25 m offset),"0 m/s mean-wind stage, sigma (σ) 0.25",60,"63.3 % [50.7, 74.4]",1.78,"[1.525, 1.968]",1,1,1,14
+FlightDock-S1O (+0.25 m offset),"0 m/s mean-wind stage, sigma (σ) 0.35",60,"50.0 % [37.7, 62.3]",2.373,"[2.124, 2.689]",16,3,23,7
+PID-baseline,S0 calm control stage (turbulence off),60,"95.0 % [86.3, 98.3]",1.561,"[1.320, 1.621]",0,0,0,168
+PID-baseline,"0 m/s mean-wind stage, sigma (σ) 0.25",60,"58.3 % [45.7, 69.9]",2.272,"[2.117, 2.349]",19,3,26,19
+PID-baseline,"0 m/s mean-wind stage, sigma (σ) 0.35",60,"18.3 % [10.6, 29.9]",2.5,"[2.360, 2.557]",37,4,62,13
+"PIDO (PID-baseline, +0.25 m offset)",S0 calm control stage (turbulence off),60,"90.0 % [79.9, 95.3]",1.1,"[0.889, 1.138]",0,0,0,193
+"PIDO (PID-baseline, +0.25 m offset)","0 m/s mean-wind stage, sigma (σ) 0.25",60,"65.0 % [52.4, 75.8]",2.147,"[2.070, 2.286]",10,4,16,27
+"PIDO (PID-baseline, +0.25 m offset)","0 m/s mean-wind stage, sigma (σ) 0.35",60,"25.0 % [15.8, 37.2]",2.463,"[2.280, 2.610]",38,1,51,14

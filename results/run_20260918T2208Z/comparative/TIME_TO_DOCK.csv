@@ -1,0 +1,277 @@
+arm,sig,stage,trajectory,n,min,mean,median,p95,max
+FlightDock-A2 (no offset),0.25,S0 calm control stage,racetrack,9,80.1,558.3,788.2,883.5,898.0
+FlightDock-A2 (no offset),0.25,S0 calm control stage,straight,8,78.9,325.8,182.1,788.2,802.6
+FlightDock-A2 (no offset),0.25,0 m/s,racetrack,18,85.8,449.5,374.3,845.7,871.1
+FlightDock-A2 (no offset),0.25,0 m/s,straight,21,73.9,299.0,217.7,719.5,787.7
+FlightDock-A2 (no offset),0.25,5 m/s,racetrack,13,94.3,256.0,257.0,409.9,455.2
+FlightDock-A2 (no offset),0.25,5 m/s,straight,25,66.6,293.6,301.0,586.4,661.4
+FlightDock-A2 (no offset),0.25,6 m/s,racetrack,17,112.3,294.1,252.6,501.9,858.6
+FlightDock-A2 (no offset),0.25,6 m/s,straight,20,68.0,419.9,378.5,783.1,881.6
+FlightDock-A2 (no offset),0.25,7 m/s,racetrack,15,65.2,318.2,237.6,581.9,899.6
+FlightDock-A2 (no offset),0.25,7 m/s,straight,17,71.2,436.0,466.8,737.6,844.4
+FlightDock-A2 (no offset),0.25,8 m/s,racetrack,16,104.9,392.1,282.9,872.4,883.1
+FlightDock-A2 (no offset),0.25,8 m/s,straight,19,81.1,347.0,372.5,662.0,739.9
+FlightDock-A2 (no offset),0.25,1 m/s,racetrack,18,80.6,330.5,263.2,821.2,867.7
+FlightDock-A2 (no offset),0.25,1 m/s,straight,18,67.4,378.6,331.7,795.6,803.9
+FlightDock-A2 (no offset),0.25,2 m/s,racetrack,19,68.2,322.8,266.3,871.3,881.2
+FlightDock-A2 (no offset),0.25,2 m/s,straight,23,55.2,272.2,182.8,621.0,858.1
+FlightDock-A2 (no offset),0.25,3 m/s,racetrack,19,62.1,396.8,348.2,865.3,890.9
+FlightDock-A2 (no offset),0.25,3 m/s,straight,20,130.1,385.6,293.5,770.8,794.4
+FlightDock-A2 (no offset),0.25,4 m/s,racetrack,17,103.8,328.8,233.3,862.2,873.5
+FlightDock-A2 (no offset),0.25,4 m/s,straight,19,56.6,276.8,299.0,505.2,815.5
+FlightDock-A2 (no offset),0.35,S0 calm control stage,racetrack,6,80.0,381.7,219.2,848.4,851.8
+FlightDock-A2 (no offset),0.35,S0 calm control stage,straight,9,78.4,475.3,538.1,815.7,847.2
+FlightDock-A2 (no offset),0.35,0 m/s,racetrack,16,87.5,263.1,224.1,551.0,850.1
+FlightDock-A2 (no offset),0.35,0 m/s,straight,9,181.0,439.6,391.6,703.5,742.4
+FlightDock-A2 (no offset),0.35,5 m/s,racetrack,8,162.0,335.7,226.9,712.2,860.7
+FlightDock-A2 (no offset),0.35,5 m/s,straight,11,211.0,511.6,528.0,729.8,763.6
+FlightDock-A2 (no offset),0.35,6 m/s,racetrack,8,84.7,369.9,213.0,890.6,897.0
+FlightDock-A2 (no offset),0.35,6 m/s,straight,7,77.6,319.4,288.9,610.4,692.4
+FlightDock-A2 (no offset),0.35,7 m/s,racetrack,12,104.3,362.8,319.0,886.4,887.6
+FlightDock-A2 (no offset),0.35,7 m/s,straight,15,91.8,380.7,364.7,723.7,795.3
+FlightDock-A2 (no offset),0.35,8 m/s,racetrack,14,73.2,407.7,330.3,861.3,881.0
+FlightDock-A2 (no offset),0.35,8 m/s,straight,15,138.8,445.0,429.0,711.9,721.7
+FlightDock-A2 (no offset),0.35,1 m/s,racetrack,8,115.2,424.7,321.5,892.8,897.3
+FlightDock-A2 (no offset),0.35,1 m/s,straight,15,127.8,404.8,407.5,782.1,859.4
+FlightDock-A2 (no offset),0.35,2 m/s,racetrack,15,61.7,321.1,265.3,814.5,834.8
+FlightDock-A2 (no offset),0.35,2 m/s,straight,13,127.2,396.3,352.3,773.7,881.1
+FlightDock-A2 (no offset),0.35,3 m/s,racetrack,8,139.9,534.5,543.7,890.0,892.1
+FlightDock-A2 (no offset),0.35,3 m/s,straight,17,128.4,407.1,407.9,723.3,808.1
+FlightDock-A2 (no offset),0.35,4 m/s,racetrack,14,120.7,319.3,260.2,819.3,856.6
+FlightDock-A2 (no offset),0.35,4 m/s,straight,11,81.4,341.6,316.7,601.6,645.5
+FlightDock-A2O (+0.25 m offset),0.25,S0 calm control stage,racetrack,4,402.6,633.0,623.4,871.0,882.5
+FlightDock-A2O (+0.25 m offset),0.25,S0 calm control stage,straight,7,82.2,499.3,395.0,811.1,818.6
+FlightDock-A2O (+0.25 m offset),0.25,0 m/s,racetrack,14,70.8,412.3,307.6,817.4,821.3
+FlightDock-A2O (+0.25 m offset),0.25,0 m/s,straight,21,78.2,428.0,362.2,818.8,899.9
+FlightDock-A2O (+0.25 m offset),0.25,5 m/s,racetrack,13,82.8,251.3,212.6,442.7,459.1
+FlightDock-A2O (+0.25 m offset),0.25,5 m/s,straight,14,88.4,329.0,195.1,752.2,799.1
+FlightDock-A2O (+0.25 m offset),0.25,6 m/s,racetrack,16,85.2,305.7,309.2,541.4,819.9
+FlightDock-A2O (+0.25 m offset),0.25,6 m/s,straight,19,76.9,350.5,264.2,754.6,857.3
+FlightDock-A2O (+0.25 m offset),0.25,7 m/s,racetrack,14,130.0,347.4,336.1,607.5,859.4
+FlightDock-A2O (+0.25 m offset),0.25,7 m/s,straight,14,73.1,385.0,342.8,712.3,728.7
+FlightDock-A2O (+0.25 m offset),0.25,8 m/s,racetrack,11,88.6,266.3,186.0,636.3,868.9
+FlightDock-A2O (+0.25 m offset),0.25,8 m/s,straight,20,77.6,332.9,269.2,665.2,786.4
+FlightDock-A2O (+0.25 m offset),0.25,1 m/s,racetrack,15,80.6,313.2,258.9,867.5,886.9
+FlightDock-A2O (+0.25 m offset),0.25,1 m/s,straight,22,106.4,402.2,354.8,824.1,891.9
+FlightDock-A2O (+0.25 m offset),0.25,2 m/s,racetrack,19,84.0,312.5,225.7,809.4,830.1
+FlightDock-A2O (+0.25 m offset),0.25,2 m/s,straight,19,65.6,303.5,268.2,598.8,685.7
+FlightDock-A2O (+0.25 m offset),0.25,3 m/s,racetrack,14,79.1,318.2,191.0,890.7,895.4
+FlightDock-A2O (+0.25 m offset),0.25,3 m/s,straight,15,92.9,487.4,547.6,833.9,855.9
+FlightDock-A2O (+0.25 m offset),0.25,4 m/s,racetrack,18,116.1,374.6,256.4,864.4,890.4
+FlightDock-A2O (+0.25 m offset),0.25,4 m/s,straight,22,107.9,416.8,353.9,842.4,897.6
+FlightDock-A2O (+0.25 m offset),0.35,S0 calm control stage,racetrack,2,92.4,141.8,141.8,186.3,191.3
+FlightDock-A2O (+0.25 m offset),0.35,S0 calm control stage,straight,4,79.3,452.5,432.2,835.7,866.4
+FlightDock-A2O (+0.25 m offset),0.35,0 m/s,racetrack,13,130.0,421.6,285.1,815.1,815.8
+FlightDock-A2O (+0.25 m offset),0.35,0 m/s,straight,6,84.7,344.0,411.1,497.4,503.8
+FlightDock-A2O (+0.25 m offset),0.35,5 m/s,racetrack,11,184.7,372.4,348.7,656.3,866.1
+FlightDock-A2O (+0.25 m offset),0.35,5 m/s,straight,17,72.8,448.7,456.4,729.7,766.0
+FlightDock-A2O (+0.25 m offset),0.35,6 m/s,racetrack,10,115.3,439.6,402.7,867.5,895.1
+FlightDock-A2O (+0.25 m offset),0.35,6 m/s,straight,13,98.1,312.4,280.8,594.3,601.8
+FlightDock-A2O (+0.25 m offset),0.35,7 m/s,racetrack,8,79.4,339.0,398.5,468.0,472.5
+FlightDock-A2O (+0.25 m offset),0.35,7 m/s,straight,14,88.6,393.5,299.7,710.9,745.1
+FlightDock-A2O (+0.25 m offset),0.35,8 m/s,racetrack,13,71.2,268.9,229.4,575.5,809.7
+FlightDock-A2O (+0.25 m offset),0.35,8 m/s,straight,9,79.7,470.7,380.6,859.2,884.8
+FlightDock-A2O (+0.25 m offset),0.35,1 m/s,racetrack,12,81.2,367.9,228.7,882.5,899.8
+FlightDock-A2O (+0.25 m offset),0.35,1 m/s,straight,10,106.3,318.8,255.2,737.9,774.6
+FlightDock-A2O (+0.25 m offset),0.35,2 m/s,racetrack,12,83.5,195.9,192.5,368.5,414.6
+FlightDock-A2O (+0.25 m offset),0.35,2 m/s,straight,9,87.0,370.0,300.7,758.4,877.8
+FlightDock-A2O (+0.25 m offset),0.35,3 m/s,racetrack,11,127.3,350.3,341.0,614.1,769.9
+FlightDock-A2O (+0.25 m offset),0.35,3 m/s,straight,16,71.5,447.4,465.7,668.9,827.4
+FlightDock-A2O (+0.25 m offset),0.35,4 m/s,racetrack,12,108.8,354.1,185.9,854.8,859.2
+FlightDock-A2O (+0.25 m offset),0.35,4 m/s,straight,11,88.5,343.3,342.0,666.7,832.4
+FlightDock-S1 (no offset),0.25,S0 calm control stage,racetrack,24,76.5,283.4,193.3,797.5,849.5
+FlightDock-S1 (no offset),0.25,S0 calm control stage,straight,26,65.8,174.7,99.5,562.8,644.2
+FlightDock-S1 (no offset),0.25,0 m/s,racetrack,20,58.8,277.3,225.9,749.5,881.8
+FlightDock-S1 (no offset),0.25,0 m/s,straight,18,66.4,304.4,247.3,626.4,714.2
+FlightDock-S1 (no offset),0.25,5 m/s,racetrack,22,102.8,265.5,238.0,448.8,458.2
+FlightDock-S1 (no offset),0.25,5 m/s,straight,21,63.7,284.5,262.4,646.3,829.8
+FlightDock-S1 (no offset),0.25,6 m/s,racetrack,18,49.9,191.2,129.0,436.4,462.6
+FlightDock-S1 (no offset),0.25,6 m/s,straight,27,77.3,275.0,253.8,456.1,572.6
+FlightDock-S1 (no offset),0.25,7 m/s,racetrack,20,62.2,260.2,254.1,430.1,470.0
+FlightDock-S1 (no offset),0.25,7 m/s,straight,23,61.1,325.0,272.0,853.8,880.3
+FlightDock-S1 (no offset),0.25,8 m/s,racetrack,19,56.7,258.6,192.7,469.3,866.4
+FlightDock-S1 (no offset),0.25,8 m/s,straight,25,61.2,310.9,256.0,642.0,686.3
+FlightDock-S1 (no offset),0.25,1 m/s,racetrack,18,76.0,295.6,276.3,486.2,767.8
+FlightDock-S1 (no offset),0.25,1 m/s,straight,22,57.9,256.1,192.2,529.8,566.6
+FlightDock-S1 (no offset),0.25,2 m/s,racetrack,18,97.6,312.5,304.4,478.4,784.0
+FlightDock-S1 (no offset),0.25,2 m/s,straight,18,52.5,223.9,206.2,422.4,603.6
+FlightDock-S1 (no offset),0.25,3 m/s,racetrack,22,52.0,248.7,195.3,836.5,897.4
+FlightDock-S1 (no offset),0.25,3 m/s,straight,18,62.3,262.3,268.6,444.4,547.6
+FlightDock-S1 (no offset),0.25,4 m/s,racetrack,21,63.1,268.5,215.9,457.3,803.6
+FlightDock-S1 (no offset),0.25,4 m/s,straight,26,61.8,291.6,222.5,744.3,853.6
+FlightDock-S1 (no offset),0.35,S0 calm control stage,racetrack,21,70.0,282.1,170.7,768.1,795.3
+FlightDock-S1 (no offset),0.35,S0 calm control stage,straight,28,67.0,173.2,145.8,368.1,395.1
+FlightDock-S1 (no offset),0.35,0 m/s,racetrack,6,85.9,204.0,181.7,335.0,339.5
+FlightDock-S1 (no offset),0.35,0 m/s,straight,9,104.3,392.0,323.0,734.4,743.3
+FlightDock-S1 (no offset),0.35,5 m/s,racetrack,12,51.3,243.6,268.9,425.8,437.9
+FlightDock-S1 (no offset),0.35,5 m/s,straight,13,81.9,332.0,265.6,736.7,760.4
+FlightDock-S1 (no offset),0.35,6 m/s,racetrack,8,127.0,236.0,193.3,425.4,436.3
+FlightDock-S1 (no offset),0.35,6 m/s,straight,5,61.2,474.0,491.8,815.0,854.5
+FlightDock-S1 (no offset),0.35,7 m/s,racetrack,13,120.4,354.5,313.2,637.8,869.2
+FlightDock-S1 (no offset),0.35,7 m/s,straight,13,62.4,317.8,277.0,651.5,855.8
+FlightDock-S1 (no offset),0.35,8 m/s,racetrack,11,84.8,217.4,164.0,410.1,415.4
+FlightDock-S1 (no offset),0.35,8 m/s,straight,9,200.9,482.7,505.6,776.0,890.7
+FlightDock-S1 (no offset),0.35,1 m/s,racetrack,6,49.4,173.5,165.3,304.4,315.3
+FlightDock-S1 (no offset),0.35,1 m/s,straight,3,68.0,295.7,372.5,439.1,446.5
+FlightDock-S1 (no offset),0.35,2 m/s,racetrack,10,65.2,312.7,269.0,749.7,782.2
+FlightDock-S1 (no offset),0.35,2 m/s,straight,16,103.2,391.8,310.6,782.6,813.4
+FlightDock-S1 (no offset),0.35,3 m/s,racetrack,12,122.6,309.8,257.6,627.4,878.7
+FlightDock-S1 (no offset),0.35,3 m/s,straight,5,140.4,438.4,522.1,663.1,673.2
+FlightDock-S1 (no offset),0.35,4 m/s,racetrack,10,51.4,177.4,154.0,331.3,333.3
+FlightDock-S1 (no offset),0.35,4 m/s,straight,7,223.1,502.7,469.7,793.8,805.5
+FlightDock-S1O (+0.25 m offset),0.25,S0 calm control stage,racetrack,18,79.0,306.9,280.0,798.2,804.1
+FlightDock-S1O (+0.25 m offset),0.25,S0 calm control stage,straight,20,70.2,297.8,221.1,866.6,889.3
+FlightDock-S1O (+0.25 m offset),0.25,0 m/s,racetrack,18,84.2,336.9,274.7,801.9,833.6
+FlightDock-S1O (+0.25 m offset),0.25,0 m/s,straight,20,60.2,216.3,170.9,525.9,658.6
+FlightDock-S1O (+0.25 m offset),0.25,5 m/s,racetrack,17,73.8,294.5,215.2,538.5,887.6
+FlightDock-S1O (+0.25 m offset),0.25,5 m/s,straight,19,61.9,355.3,312.6,834.5,864.0
+FlightDock-S1O (+0.25 m offset),0.25,6 m/s,racetrack,21,48.6,211.0,175.3,388.2,492.4
+FlightDock-S1O (+0.25 m offset),0.25,6 m/s,straight,23,67.2,331.6,215.0,799.7,838.8
+FlightDock-S1O (+0.25 m offset),0.25,7 m/s,racetrack,19,78.7,277.5,256.0,469.8,469.8
+FlightDock-S1O (+0.25 m offset),0.25,7 m/s,straight,23,64.8,335.7,353.0,597.6,633.8
+FlightDock-S1O (+0.25 m offset),0.25,8 m/s,racetrack,21,60.2,257.8,181.6,860.9,882.6
+FlightDock-S1O (+0.25 m offset),0.25,8 m/s,straight,22,60.6,339.2,261.3,818.5,842.0
+FlightDock-S1O (+0.25 m offset),0.25,1 m/s,racetrack,14,51.1,250.0,261.7,420.0,432.2
+FlightDock-S1O (+0.25 m offset),0.25,1 m/s,straight,20,59.5,319.6,300.2,687.8,691.8
+FlightDock-S1O (+0.25 m offset),0.25,2 m/s,racetrack,18,92.4,292.3,220.8,843.7,862.3
+FlightDock-S1O (+0.25 m offset),0.25,2 m/s,straight,20,49.8,269.6,192.9,753.3,857.2
+FlightDock-S1O (+0.25 m offset),0.25,3 m/s,racetrack,20,61.4,210.6,215.5,392.3,402.0
+FlightDock-S1O (+0.25 m offset),0.25,3 m/s,straight,21,52.2,194.5,156.2,364.2,441.4
+FlightDock-S1O (+0.25 m offset),0.25,4 m/s,racetrack,23,59.1,242.8,211.6,453.7,827.0
+FlightDock-S1O (+0.25 m offset),0.25,4 m/s,straight,24,47.1,356.0,324.6,756.1,825.3
+FlightDock-S1O (+0.25 m offset),0.35,S0 calm control stage,racetrack,22,70.4,287.6,203.5,821.3,844.0
+FlightDock-S1O (+0.25 m offset),0.35,S0 calm control stage,straight,25,68.9,290.3,186.3,832.3,870.4
+FlightDock-S1O (+0.25 m offset),0.35,0 m/s,racetrack,15,95.3,214.2,194.0,364.6,377.4
+FlightDock-S1O (+0.25 m offset),0.35,0 m/s,straight,15,89.5,326.6,284.6,537.7,666.4
+FlightDock-S1O (+0.25 m offset),0.35,5 m/s,racetrack,10,62.4,267.9,317.1,417.5,429.2
+FlightDock-S1O (+0.25 m offset),0.35,5 m/s,straight,14,66.7,309.7,231.2,679.2,723.0
+FlightDock-S1O (+0.25 m offset),0.35,6 m/s,racetrack,12,55.0,296.6,232.2,577.7,816.7
+FlightDock-S1O (+0.25 m offset),0.35,6 m/s,straight,10,44.8,266.4,189.5,598.7,694.5
+FlightDock-S1O (+0.25 m offset),0.35,7 m/s,racetrack,10,64.8,282.3,263.5,438.9,458.6
+FlightDock-S1O (+0.25 m offset),0.35,7 m/s,straight,14,44.1,378.5,350.6,764.7,843.2
+FlightDock-S1O (+0.25 m offset),0.35,8 m/s,racetrack,9,132.0,243.5,214.8,423.0,425.0
+FlightDock-S1O (+0.25 m offset),0.35,8 m/s,straight,16,120.3,385.5,374.9,664.9,800.5
+FlightDock-S1O (+0.25 m offset),0.35,1 m/s,racetrack,8,50.5,189.5,181.8,327.3,364.4
+FlightDock-S1O (+0.25 m offset),0.35,1 m/s,straight,7,93.9,286.6,249.0,568.1,646.8
+FlightDock-S1O (+0.25 m offset),0.35,2 m/s,racetrack,13,64.6,236.6,148.7,543.9,783.7
+FlightDock-S1O (+0.25 m offset),0.35,2 m/s,straight,13,102.4,317.1,332.3,656.9,820.3
+FlightDock-S1O (+0.25 m offset),0.35,3 m/s,racetrack,13,86.3,248.5,251.0,428.4,435.6
+FlightDock-S1O (+0.25 m offset),0.35,3 m/s,straight,11,68.1,254.7,166.5,573.4,674.4
+FlightDock-S1O (+0.25 m offset),0.35,4 m/s,racetrack,13,116.1,276.4,241.1,547.2,811.7
+FlightDock-S1O (+0.25 m offset),0.35,4 m/s,straight,14,56.8,344.6,320.4,662.3,833.9
+PID-baseline,0.25,S0 calm control stage,racetrack,28,70.0,141.0,108.5,357.4,404.7
+PID-baseline,0.25,S0 calm control stage,straight,29,71.3,157.6,97.5,442.5,746.3
+PID-baseline,0.25,0 m/s,racetrack,19,63.5,158.5,140.6,310.1,420.7
+PID-baseline,0.25,0 m/s,straight,16,65.4,152.6,139.0,248.1,394.3
+PID-baseline,0.25,5 m/s,racetrack,20,77.1,217.2,166.6,507.0,879.9
+PID-baseline,0.25,5 m/s,straight,13,112.5,254.4,217.6,507.1,588.4
+PID-baseline,0.25,6 m/s,racetrack,19,64.8,220.4,156.9,380.4,887.1
+PID-baseline,0.25,6 m/s,straight,17,88.8,291.3,249.8,698.1,771.4
+PID-baseline,0.25,7 m/s,racetrack,22,57.5,230.7,222.2,431.6,462.6
+PID-baseline,0.25,7 m/s,straight,14,74.1,195.8,160.8,381.4,534.8
+PID-baseline,0.25,8 m/s,racetrack,22,65.2,201.3,154.7,442.3,452.7
+PID-baseline,0.25,8 m/s,straight,17,105.7,227.0,200.7,398.8,731.5
+PID-baseline,0.25,1 m/s,racetrack,14,81.1,215.7,220.2,355.4,366.0
+PID-baseline,0.25,1 m/s,straight,13,74.4,244.5,171.5,529.5,707.3
+PID-baseline,0.25,2 m/s,racetrack,22,69.7,222.1,173.8,414.2,462.4
+PID-baseline,0.25,2 m/s,straight,15,67.6,281.6,188.2,683.3,857.5
+PID-baseline,0.25,3 m/s,racetrack,20,68.6,324.9,228.0,883.1,890.4
+PID-baseline,0.25,3 m/s,straight,15,55.1,189.6,128.4,404.4,544.0
+PID-baseline,0.25,4 m/s,racetrack,23,86.3,201.7,197.8,351.6,440.6
+PID-baseline,0.25,4 m/s,straight,11,77.7,178.6,152.2,333.9,351.4
+PID-baseline,0.35,S0 calm control stage,racetrack,30,76.7,157.9,93.3,349.3,898.0
+PID-baseline,0.35,S0 calm control stage,straight,30,72.4,153.1,129.8,297.0,315.6
+PID-baseline,0.35,0 m/s,racetrack,6,137.9,340.7,280.4,727.4,866.3
+PID-baseline,0.35,0 m/s,straight,5,111.5,247.7,148.5,515.5,577.3
+PID-baseline,0.35,5 m/s,racetrack,8,68.0,247.0,240.5,393.5,395.0
+PID-baseline,0.35,5 m/s,straight,5,79.5,174.6,156.5,325.0,357.6
+PID-baseline,0.35,6 m/s,racetrack,7,84.1,238.5,254.3,384.1,393.2
+PID-baseline,0.35,6 m/s,straight,6,99.9,318.3,228.1,645.4,677.5
+PID-baseline,0.35,7 m/s,racetrack,8,132.8,228.8,227.0,356.7,405.8
+PID-baseline,0.35,7 m/s,straight,6,95.2,277.0,292.7,410.0,423.4
+PID-baseline,0.35,8 m/s,racetrack,9,63.0,279.1,173.6,710.8,893.4
+PID-baseline,0.35,8 m/s,straight,6,83.9,242.3,240.8,356.0,374.0
+PID-baseline,0.35,1 m/s,racetrack,6,105.6,181.0,150.9,312.2,353.0
+PID-baseline,0.35,1 m/s,straight,2,175.0,184.7,184.7,193.3,194.3
+PID-baseline,0.35,2 m/s,racetrack,8,117.4,211.1,173.5,380.3,405.3
+PID-baseline,0.35,2 m/s,straight,6,134.4,225.9,204.9,379.9,423.5
+PID-baseline,0.35,3 m/s,racetrack,11,68.6,290.8,307.4,434.8,447.7
+PID-baseline,0.35,3 m/s,straight,7,130.9,440.1,319.1,816.4,824.7
+PID-baseline,0.35,4 m/s,racetrack,2,213.0,301.6,301.6,381.4,390.3
+PID-baseline,0.35,4 m/s,straight,5,122.9,350.8,141.5,727.0,760.8
+"PIDO (PID-baseline, +0.25 m offset)",0.25,S0 calm control stage,racetrack,27,75.4,208.0,131.8,718.0,873.4
+"PIDO (PID-baseline, +0.25 m offset)",0.25,S0 calm control stage,straight,27,77.4,215.2,147.3,490.0,575.8
+"PIDO (PID-baseline, +0.25 m offset)",0.25,0 m/s,racetrack,21,77.1,166.4,155.8,252.6,266.1
+"PIDO (PID-baseline, +0.25 m offset)",0.25,0 m/s,straight,18,86.5,239.1,148.2,680.9,818.4
+"PIDO (PID-baseline, +0.25 m offset)",0.25,5 m/s,racetrack,19,68.1,217.6,179.7,430.6,443.3
+"PIDO (PID-baseline, +0.25 m offset)",0.25,5 m/s,straight,19,80.8,199.7,180.4,377.7,463.0
+"PIDO (PID-baseline, +0.25 m offset)",0.25,6 m/s,racetrack,25,78.5,239.8,228.7,386.2,401.7
+"PIDO (PID-baseline, +0.25 m offset)",0.25,6 m/s,straight,19,71.8,279.7,200.7,631.5,698.0
+"PIDO (PID-baseline, +0.25 m offset)",0.25,7 m/s,racetrack,24,84.2,222.1,237.1,374.7,421.4
+"PIDO (PID-baseline, +0.25 m offset)",0.25,7 m/s,straight,19,73.9,295.3,227.9,644.4,691.1
+"PIDO (PID-baseline, +0.25 m offset)",0.25,8 m/s,racetrack,19,67.1,235.2,185.9,463.8,853.6
+"PIDO (PID-baseline, +0.25 m offset)",0.25,8 m/s,straight,17,83.8,240.0,186.0,527.2,528.2
+"PIDO (PID-baseline, +0.25 m offset)",0.25,1 m/s,racetrack,21,56.8,225.2,160.0,445.7,881.3
+"PIDO (PID-baseline, +0.25 m offset)",0.25,1 m/s,straight,16,87.1,244.5,196.7,407.7,422.6
+"PIDO (PID-baseline, +0.25 m offset)",0.25,2 m/s,racetrack,24,49.7,247.9,200.5,689.3,795.0
+"PIDO (PID-baseline, +0.25 m offset)",0.25,2 m/s,straight,20,51.9,253.0,197.7,570.5,702.6
+"PIDO (PID-baseline, +0.25 m offset)",0.25,3 m/s,racetrack,21,57.7,202.2,172.3,361.0,466.9
+"PIDO (PID-baseline, +0.25 m offset)",0.25,3 m/s,straight,23,126.4,280.9,229.2,525.2,772.9
+"PIDO (PID-baseline, +0.25 m offset)",0.25,4 m/s,racetrack,24,93.4,247.2,218.0,462.9,823.0
+"PIDO (PID-baseline, +0.25 m offset)",0.25,4 m/s,straight,16,94.5,228.3,211.9,396.8,403.7
+"PIDO (PID-baseline, +0.25 m offset)",0.35,S0 calm control stage,racetrack,28,75.8,191.2,124.0,629.0,806.3
+"PIDO (PID-baseline, +0.25 m offset)",0.35,S0 calm control stage,straight,28,74.2,234.1,186.3,721.0,777.1
+"PIDO (PID-baseline, +0.25 m offset)",0.35,0 m/s,racetrack,7,87.9,171.3,180.6,288.3,321.0
+"PIDO (PID-baseline, +0.25 m offset)",0.35,0 m/s,straight,8,236.7,384.4,353.3,559.0,605.9
+"PIDO (PID-baseline, +0.25 m offset)",0.35,5 m/s,racetrack,8,121.8,307.5,244.6,679.7,804.7
+"PIDO (PID-baseline, +0.25 m offset)",0.35,5 m/s,straight,6,92.7,257.7,251.6,431.8,437.9
+"PIDO (PID-baseline, +0.25 m offset)",0.35,6 m/s,racetrack,10,64.6,344.3,333.0,672.2,831.6
+"PIDO (PID-baseline, +0.25 m offset)",0.35,6 m/s,straight,7,72.5,305.6,313.1,511.1,554.5
+"PIDO (PID-baseline, +0.25 m offset)",0.35,7 m/s,racetrack,8,122.0,243.3,213.1,418.0,460.9
+"PIDO (PID-baseline, +0.25 m offset)",0.35,7 m/s,straight,8,109.0,315.9,226.5,752.1,870.4
+"PIDO (PID-baseline, +0.25 m offset)",0.35,8 m/s,racetrack,13,107.8,252.5,238.4,416.3,487.0
+"PIDO (PID-baseline, +0.25 m offset)",0.35,8 m/s,straight,10,81.5,334.9,347.0,574.8,613.2
+"PIDO (PID-baseline, +0.25 m offset)",0.35,1 m/s,racetrack,8,82.6,328.0,292.0,672.1,785.7
+"PIDO (PID-baseline, +0.25 m offset)",0.35,1 m/s,straight,8,112.0,281.9,218.4,579.1,614.0
+"PIDO (PID-baseline, +0.25 m offset)",0.35,2 m/s,racetrack,9,93.5,296.0,190.4,749.7,771.2
+"PIDO (PID-baseline, +0.25 m offset)",0.35,2 m/s,straight,7,113.8,339.1,277.3,577.9,592.6
+"PIDO (PID-baseline, +0.25 m offset)",0.35,3 m/s,racetrack,9,96.1,303.6,242.7,621.0,827.1
+"PIDO (PID-baseline, +0.25 m offset)",0.35,3 m/s,straight,6,166.9,389.1,328.4,737.2,817.3
+"PIDO (PID-baseline, +0.25 m offset)",0.35,4 m/s,racetrack,8,55.9,263.4,307.4,433.8,449.7
+"PIDO (PID-baseline, +0.25 m offset)",0.35,4 m/s,straight,6,142.1,249.2,238.9,382.9,406.0
+FlightDock-A2 (no offset),0.25,all stages incl. S0,racetrack,161,62.1,358.4,283.9,868.8,899.6
+FlightDock-A2 (no offset),0.25,all stages incl. S0,straight,190,55.2,340.4,304.0,774.2,881.6
+FlightDock-A2 (no offset),0.35,all stages incl. S0,racetrack,109,61.7,359.3,263.8,885.0,897.3
+FlightDock-A2 (no offset),0.35,all stages incl. S0,straight,122,77.6,413.0,393.1,762.9,881.1
+FlightDock-A2O (+0.25 m offset),0.25,all stages incl. S0,racetrack,138,70.8,334.0,248.3,859.4,895.4
+FlightDock-A2O (+0.25 m offset),0.25,all stages incl. S0,straight,173,65.6,386.7,346.2,821.1,899.9
+FlightDock-A2O (+0.25 m offset),0.35,all stages incl. S0,racetrack,104,71.2,339.7,251.0,848.6,899.8
+FlightDock-A2O (+0.25 m offset),0.35,all stages incl. S0,straight,109,71.5,392.3,362.3,813.4,884.8
+FlightDock-S1 (no offset),0.25,all stages incl. S0,racetrack,202,49.9,266.3,226.4,766.5,897.4
+FlightDock-S1 (no offset),0.25,all stages incl. S0,straight,224,52.5,270.7,230.4,645.9,880.3
+FlightDock-S1 (no offset),0.35,all stages incl. S0,racetrack,109,49.4,262.6,223.3,743.2,878.7
+FlightDock-S1 (no offset),0.35,all stages incl. S0,straight,108,61.2,337.1,277.0,770.3,890.7
+FlightDock-S1O (+0.25 m offset),0.25,all stages incl. S0,racetrack,189,48.6,266.0,216.5,789.6,887.6
+FlightDock-S1O (+0.25 m offset),0.25,all stages incl. S0,straight,212,47.1,303.1,237.8,778.5,889.3
+FlightDock-S1O (+0.25 m offset),0.35,all stages incl. S0,racetrack,125,50.5,257.7,223.4,695.5,844.0
+FlightDock-S1O (+0.25 m offset),0.35,all stages incl. S0,straight,139,44.1,319.3,276.1,730.7,870.4
+PID-baseline,0.25,all stages incl. S0,racetrack,209,57.5,210.7,164.2,442.2,890.4
+PID-baseline,0.25,all stages incl. S0,straight,160,55.1,213.0,165.7,546.2,857.5
+PID-baseline,0.35,all stages incl. S0,racetrack,95,63.0,224.7,174.7,426.4,898.0
+PID-baseline,0.35,all stages incl. S0,straight,78,72.4,234.5,182.3,622.9,824.7
+"PIDO (PID-baseline, +0.25 m offset)",0.25,all stages incl. S0,racetrack,225,49.7,221.8,192.4,440.5,881.3
+"PIDO (PID-baseline, +0.25 m offset)",0.25,all stages incl. S0,straight,194,51.9,247.4,196.4,584.1,818.4
+"PIDO (PID-baseline, +0.25 m offset)",0.35,all stages incl. S0,racetrack,108,55.9,257.5,211.7,779.2,831.6
+"PIDO (PID-baseline, +0.25 m offset)",0.35,all stages incl. S0,straight,94,72.5,294.2,242.4,626.4,870.4
+FlightDock-A2 (no offset),0.25,all stages incl. S0,both,351,55.2,348.7,299.0,847.2,899.6
+FlightDock-A2 (no offset),0.35,all stages incl. S0,both,231,61.7,387.7,332.7,865.9,897.3
+FlightDock-A2O (+0.25 m offset),0.25,all stages incl. S0,both,311,65.6,363.3,303.0,840.1,899.9
+FlightDock-A2O (+0.25 m offset),0.35,all stages incl. S0,both,213,71.2,366.6,297.5,829.4,899.8
+FlightDock-S1 (no offset),0.25,all stages incl. S0,both,426,49.9,268.6,227.0,667.7,897.4
+FlightDock-S1 (no offset),0.35,all stages incl. S0,both,217,49.4,299.7,260.3,766.9,890.7
+FlightDock-S1O (+0.25 m offset),0.25,all stages incl. S0,both,401,47.1,285.6,223.5,789.6,889.3
+FlightDock-S1O (+0.25 m offset),0.35,all stages incl. S0,both,264,44.1,290.1,242.1,750.0,870.4
+PID-baseline,0.25,all stages incl. S0,both,369,55.1,211.7,164.6,462.5,890.4
+PID-baseline,0.35,all stages incl. S0,both,173,63.0,229.1,176.3,583.1,898.0
+"PIDO (PID-baseline, +0.25 m offset)",0.25,all stages incl. S0,both,419,49.7,233.6,195.2,529.9,881.3
+"PIDO (PID-baseline, +0.25 m offset)",0.35,all stages incl. S0,both,202,55.9,274.6,227.5,757.4,870.4

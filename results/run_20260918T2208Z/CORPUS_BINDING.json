@@ -1,0 +1,122 @@
+{
+ "A2P025": {
+  "tag": "A2P025",
+  "root": "/home/ubuntu/flightdock_corpora/A2_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "A2P035": {
+  "tag": "A2P035",
+  "root": "/home/ubuntu/flightdock_corpora/A2_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ },
+ "A2V25": {
+  "tag": "A2V25",
+  "root": "/home/ubuntu/flightdock_corpora/A2O_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "A2V35": {
+  "tag": "A2V35",
+  "root": "/home/ubuntu/flightdock_corpora/A2O_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ },
+ "S1A25": {
+  "tag": "S1A25",
+  "root": "/home/ubuntu/flightdock_corpora/S1_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "S1A35": {
+  "tag": "S1A35",
+  "root": "/home/ubuntu/flightdock_corpora/S1_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ },
+ "CSV025": {
+  "tag": "CSV025",
+  "root": "/home/ubuntu/flightdock_corpora/S1O_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "CSV035": {
+  "tag": "CSV035",
+  "root": "/home/ubuntu/flightdock_corpora/S1O_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ },
+ "ARMB025": {
+  "tag": "ARMB025",
+  "root": "/home/ubuntu/flightdock_corpora/PID_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "a70c4a88f8d176fac7ecad27d7458a871f48cf076dceda81763fdbc2d6d3b05c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "ARMB035": {
+  "tag": "ARMB035",
+  "root": "/home/ubuntu/flightdock_corpora/PID_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "a70c4a88f8d176fac7ecad27d7458a871f48cf076dceda81763fdbc2d6d3b05c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ },
+ "PIDO25": {
+  "tag": "PIDO25",
+  "root": "/home/ubuntu/flightdock_corpora/PIDO_s025",
+  "sigma": 0.25,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/SLOT_MANIFEST_ARMBLAD025.json",
+  "manifest_sha256": "8c43bef0ccd9267bea8585f6a1aa6fd7d635a578749976b284f9fddc2e464df1",
+  "table_sha256": "6be7b251698e4f776f336c4a6ac5522b021918640ff8fc0283d2288620fc3e18"
+ },
+ "PIDO35": {
+  "tag": "PIDO35",
+  "root": "/home/ubuntu/flightdock_corpora/PIDO_s035",
+  "sigma": 0.35,
+  "checkpoint_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c",
+  "n_legs": 600,
+  "manifest": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/SLOT_MANIFEST_ARMBLAD035.json",
+  "manifest_sha256": "2fe72f9c9a314394463c98632259ab52643c7bc6a92625b0cbb16340d7cdf15b",
+  "table_sha256": "29c13944f7aaea07bc06bce7cf80b1b349787a613acbb880c4a56d217737e9ce"
+ }
+}

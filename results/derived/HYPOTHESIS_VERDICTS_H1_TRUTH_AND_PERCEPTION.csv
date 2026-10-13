@@ -1,0 +1,7 @@
+arm,graded,"corridor p95, truth (m)","corridor p95, perception (m) - not graded",perception minus truth (m),"stages over 2.00 m, truth","stages over 2.00 m, perception","legs over 2.00 m, truth","legs over 2.00 m, perception"
+FlightDock-A2 (no offset),"yes, on truth","1.690 [1.600, 1.800]","2.036 [1.954, 2.249]",+0.346,0 of 9,3 of 9,9,33
+FlightDock-A2O (+0.25 m offset),"yes, on truth","1.690 [1.550, 1.780]","1.948 [1.896, 2.063]",+0.258,0 of 9,4 of 9,7,25
+FlightDock-S1 (no offset),"yes, on truth","2.110 [2.064, 2.146]","2.467 [2.403, 2.569]",+0.357,8 of 9,9 of 9,52,117
+FlightDock-S1O (+0.25 m offset),"yes, on truth","1.904 [1.800, 1.990]","2.239 [2.175, 2.295]",+0.335,1 of 9,7 of 9,17,56
+PID-baseline,no (reported),"2.344 [2.265, 2.410]","2.755 [2.672, 2.807]",+0.411,9 of 9,9 of 9,171,311
+"PIDO (PID-baseline, +0.25 m offset)",no (reported),"2.150 [2.130, 2.210]","2.570 [2.513, 2.701]",+0.420,9 of 9,9 of 9,98,213

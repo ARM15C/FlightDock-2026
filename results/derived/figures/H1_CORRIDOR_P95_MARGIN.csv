@@ -1,0 +1,7 @@
+arm,"H1 verdict (bound rule, truth, sigma 0.25)",legs flown,legs that entered the corridor (n),"corridor p95, truth (m)","two-sided 95% seed-cluster bootstrap interval, truth (m)","corridor p95, perception (m), not graded","two-sided 95% seed-cluster bootstrap interval, perception (m)",one-sided bootstrap p (H0: p95 >= 2.00 m)
+S1O,H1 met,540,513,1.904,"[1.800, 1.990]",2.239,"[2.175, 2.295]",0.0096
+S1,H1 not met,540,521,2.110,"[2.064, 2.146]",2.467,"[2.403, 2.569]",1.0000
+A2O,H1 met,540,525,1.690,"[1.550, 1.780]",1.948,"[1.896, 2.063]",0.0000
+A2,H1 met,540,522,1.690,"[1.600, 1.800]",2.036,"[1.954, 2.249]",0.0000
+PIDO,comparator (not graded),540,517,2.150,"[2.130, 2.210]",2.570,"[2.513, 2.701]",1.0000
+PID,comparator (not graded),540,517,2.344,"[2.265, 2.410]",2.755,"[2.672, 2.807]",1.0000

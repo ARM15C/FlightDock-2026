@@ -1,0 +1,73 @@
+outcome,sigma,pool,trajectory,controller,legs_or_pairs,offset_off,offset_on,change,ci_lo,ci_hi,class
+captures (pp),0.25,nine wind stages,all,FlightDock-A2 (no offset),540,61.9,55.6,-6.3,-11.9,-0.6,hurt
+corridor p95 (m),0.25,nine wind stages,all,FlightDock-A2 (no offset),525,1.69,1.69,0.001,-0.16,0.12,no clear change
+captures (pp),0.25,nine wind stages,racetrack,FlightDock-A2 (no offset),270,56.3,49.6,-6.67,-14.8,1.6,no clear change
+corridor p95 (m),0.25,nine wind stages,racetrack,FlightDock-A2 (no offset),262,1.6,1.728,0.128,-0.08,0.247,no clear change
+captures (pp),0.25,nine wind stages,straight,FlightDock-A2 (no offset),270,67.4,61.5,-5.93,-13.5,1.7,no clear change
+corridor p95 (m),0.25,nine wind stages,straight,FlightDock-A2 (no offset),263,1.73,1.668,-0.062,-0.31,0.118,no clear change
+captures (pp),0.25,nine wind stages,all,FlightDock-S1 (no offset),540,69.6,67.2,-2.41,-7.6,2.8,no clear change
+corridor p95 (m),0.25,nine wind stages,all,FlightDock-S1 (no offset),513,2.11,1.904,-0.206,-0.32,-0.119,helped
+captures (pp),0.25,nine wind stages,racetrack,FlightDock-S1 (no offset),270,65.9,63.3,-2.59,-10.2,5.1,no clear change
+corridor p95 (m),0.25,nine wind stages,racetrack,FlightDock-S1 (no offset),262,2.05,1.8,-0.25,-0.39,-0.06,helped
+captures (pp),0.25,nine wind stages,straight,FlightDock-S1 (no offset),270,73.3,71.1,-2.22,-9.1,4.7,no clear change
+corridor p95 (m),0.25,nine wind stages,straight,FlightDock-S1 (no offset),251,2.133,1.935,-0.198,-0.32,-0.08,helped
+captures (pp),0.25,nine wind stages,all,PID-baseline,540,57.8,67.6,9.81,4.4,15.2,helped
+corridor p95 (m),0.25,nine wind stages,all,PID-baseline,517,2.344,2.15,-0.194,-0.266,-0.1,helped
+captures (pp),0.25,nine wind stages,racetrack,PID-baseline,270,67.0,73.3,6.3,-1.1,13.6,no clear change
+corridor p95 (m),0.25,nine wind stages,racetrack,PID-baseline,257,2.249,2.142,-0.107,-0.213,0.003,no clear change
+captures (pp),0.25,nine wind stages,straight,PID-baseline,270,48.5,61.9,13.33,5.4,21.0,helped
+corridor p95 (m),0.25,nine wind stages,straight,PID-baseline,260,2.426,2.16,-0.266,-0.34,-0.13,helped
+captures (pp),0.25,strong-wind (6-8 m/s),all,FlightDock-A2 (no offset),180,57.8,52.2,-5.56,-15.3,4.4,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),all,FlightDock-A2 (no offset),170,1.632,1.495,-0.137,-0.286,0.1,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),racetrack,FlightDock-A2 (no offset),90,53.3,45.6,-7.78,-21.5,6.3,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),racetrack,FlightDock-A2 (no offset),85,1.458,1.396,-0.062,-0.199,0.116,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),straight,FlightDock-A2 (no offset),90,62.2,58.9,-3.33,-16.9,10.4,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),straight,FlightDock-A2 (no offset),85,1.715,1.572,-0.143,-0.464,0.136,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),all,FlightDock-S1 (no offset),180,73.3,71.7,-1.67,-9.8,6.5,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),all,FlightDock-S1 (no offset),171,2.053,1.91,-0.143,-0.358,0.017,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),racetrack,FlightDock-S1 (no offset),90,63.3,67.8,4.44,-8.1,16.8,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),racetrack,FlightDock-S1 (no offset),88,2.047,1.765,-0.282,-0.744,0.0,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),straight,FlightDock-S1 (no offset),90,83.3,75.6,-7.78,-18.1,2.7,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),straight,FlightDock-S1 (no offset),83,2.045,1.958,-0.087,-0.28,0.154,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),all,PID-baseline,180,61.7,68.3,6.67,-2.3,15.4,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),all,PID-baseline,175,2.282,2.153,-0.129,-0.195,0.104,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),racetrack,PID-baseline,90,70.0,75.6,5.56,-6.5,17.4,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),racetrack,PID-baseline,86,2.13,2.21,0.08,-0.068,0.188,no clear change
+captures (pp),0.25,strong-wind (6-8 m/s),straight,PID-baseline,90,53.3,61.1,7.78,-5.3,20.5,no clear change
+corridor p95 (m),0.25,strong-wind (6-8 m/s),straight,PID-baseline,89,2.327,2.136,-0.191,-0.35,0.013,no clear change
+captures (pp),0.35,nine wind stages,all,FlightDock-A2 (no offset),540,40.0,38.3,-1.67,-7.5,4.1,no clear change
+corridor p95 (m),0.35,nine wind stages,all,FlightDock-A2 (no offset),493,2.273,2.254,-0.019,-0.127,0.04,no clear change
+captures (pp),0.35,nine wind stages,racetrack,FlightDock-A2 (no offset),270,38.1,37.8,-0.37,-8.4,7.6,no clear change
+corridor p95 (m),0.35,nine wind stages,racetrack,FlightDock-A2 (no offset),248,2.235,2.236,0.001,-0.095,0.085,no clear change
+captures (pp),0.35,nine wind stages,straight,FlightDock-A2 (no offset),270,41.9,38.9,-2.96,-11.3,5.4,no clear change
+corridor p95 (m),0.35,nine wind stages,straight,FlightDock-A2 (no offset),245,2.354,2.266,-0.088,-0.23,0.034,no clear change
+captures (pp),0.35,nine wind stages,all,FlightDock-S1 (no offset),540,31.1,40.2,9.07,3.7,14.3,helped
+corridor p95 (m),0.35,nine wind stages,all,FlightDock-S1 (no offset),480,2.44,2.281,-0.159,-0.26,-0.026,helped
+captures (pp),0.35,nine wind stages,racetrack,FlightDock-S1 (no offset),270,32.6,38.1,5.56,-1.8,12.8,no clear change
+corridor p95 (m),0.35,nine wind stages,racetrack,FlightDock-S1 (no offset),236,2.383,2.24,-0.143,-0.314,0.052,no clear change
+captures (pp),0.35,nine wind stages,straight,FlightDock-S1 (no offset),270,29.6,42.2,12.59,4.9,20.1,helped
+corridor p95 (m),0.35,nine wind stages,straight,FlightDock-S1 (no offset),244,2.478,2.38,-0.098,-0.311,0.087,no clear change
+captures (pp),0.35,nine wind stages,all,PID-baseline,540,20.9,27.0,6.11,1.3,10.9,helped
+corridor p95 (m),0.35,nine wind stages,all,PID-baseline,491,2.562,2.505,-0.056,-0.14,0.032,no clear change
+captures (pp),0.35,nine wind stages,racetrack,PID-baseline,270,24.1,29.6,5.56,-1.4,12.5,no clear change
+corridor p95 (m),0.35,nine wind stages,racetrack,PID-baseline,241,2.559,2.51,-0.049,-0.15,0.058,no clear change
+captures (pp),0.35,nine wind stages,straight,PID-baseline,270,17.8,24.4,6.67,-0.0,13.3,no clear change
+corridor p95 (m),0.35,nine wind stages,straight,PID-baseline,250,2.555,2.491,-0.064,-0.21,0.116,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),all,FlightDock-A2 (no offset),180,39.4,37.2,-2.22,-12.4,8.0,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),all,FlightDock-A2 (no offset),163,2.274,2.239,-0.035,-0.316,0.1,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),racetrack,FlightDock-A2 (no offset),90,37.8,34.4,-3.33,-17.9,11.4,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),racetrack,FlightDock-A2 (no offset),84,2.199,2.238,0.04,-0.324,0.186,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),straight,FlightDock-A2 (no offset),90,41.1,40.0,-1.11,-15.1,12.9,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),straight,FlightDock-A2 (no offset),79,2.361,2.232,-0.129,-0.36,0.124,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),all,FlightDock-S1 (no offset),180,32.8,39.4,6.67,-2.7,15.8,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),all,FlightDock-S1 (no offset),161,2.383,2.22,-0.163,-0.389,0.02,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),racetrack,FlightDock-S1 (no offset),90,35.6,34.4,-1.11,-14.5,12.3,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),racetrack,FlightDock-S1 (no offset),78,2.522,2.223,-0.299,-0.516,0.088,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),straight,FlightDock-S1 (no offset),90,30.0,44.4,14.44,1.8,26.4,helped
+corridor p95 (m),0.35,strong-wind (6-8 m/s),straight,FlightDock-S1 (no offset),83,2.305,2.178,-0.127,-0.29,0.211,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),all,PID-baseline,180,23.3,31.1,7.78,-0.9,16.3,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),all,PID-baseline,161,2.534,2.48,-0.054,-0.22,0.236,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),racetrack,PID-baseline,90,26.7,34.4,7.78,-4.6,19.9,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),racetrack,PID-baseline,77,2.534,2.502,-0.032,-0.168,0.213,no clear change
+captures (pp),0.35,strong-wind (6-8 m/s),straight,PID-baseline,90,20.0,27.8,7.78,-4.3,19.6,no clear change
+corridor p95 (m),0.35,strong-wind (6-8 m/s),straight,PID-baseline,84,2.518,2.456,-0.062,-0.44,0.337,no clear change

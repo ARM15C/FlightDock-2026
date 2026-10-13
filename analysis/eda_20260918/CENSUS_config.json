@@ -1,0 +1,122 @@
+[
+ {
+  "corpus": "A2O_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/exam_bench3/s1abl/s1abl_S1ABL_A2V25_20260915T052236Z",
+  "overlay_dose": 0.75,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 0.75)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/stage/A2/protected/model_final.zip",
+  "venue_ckpt_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442"
+ },
+ {
+  "corpus": "A2O_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/exam_bench4/s1abl/s1abl_S1ABL_A2V35_20260915T052354Z",
+  "overlay_dose": 0.75,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 0.75)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/stage/A2/protected/model_final.zip",
+  "venue_ckpt_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442"
+ },
+ {
+  "corpus": "A2_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/bench600_20260902T0310Z/exam_bench1_full/bench600/bench600_BENCH600_H1H2_20260902T201131Z",
+  "overlay_dose": 0.75,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 0.75)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/bench600_20260902T0310Z/stage/A2/protected/model_final.zip",
+  "venue_ckpt_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442"
+ },
+ {
+  "corpus": "A2_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/bench600_20260902T0310Z/exam_bench2/bench600/bench600_BENCH600_H3_20260902T201249Z",
+  "overlay_dose": 0.75,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 0.75)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/bench600_20260902T0310Z/stage/A2/protected/model_final.zip",
+  "venue_ckpt_sha256": "3d1cf6cac098ef3e53fd5c0ed759d14be58448b242297bde18b68f1f7801d442"
+ },
+ {
+  "corpus": "PIDO_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/pido_20260916/exam_rebench1/pido/pido_PIDO_PIDO25_20260917T014047Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+ACTION_SCALES: List[float] = [0.00, 0.00, 0.00]  # PIDO-20260916 OVERLAY: residual scaled for ONE exam; REVERTED after the run",
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/pido_20260916/stage/S1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ },
+ {
+  "corpus": "PIDO_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/pido_20260916/exam_rebench2/pido/pido_PIDO_PIDO35_20260917T014205Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+ACTION_SCALES: List[float] = [0.00, 0.00, 0.00]  # PIDO-20260916 OVERLAY: residual scaled for ONE exam; REVERTED after the run",
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/pido_20260916/stage/S1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ },
+ {
+  "corpus": "PID_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/armblad025_20260830T1600Z/legs_full",
+  "overlay_witness": "absent",
+  "venue_witness": "absent"
+ },
+ {
+  "corpus": "PID_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/armblad035_20260830T1600Z/legs_full",
+  "overlay_witness": "absent",
+  "venue_witness": "absent"
+ },
+ {
+  "corpus": "S1O_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/cs600_20260903T0230Z/exam_full/cs600/cs600_CS600_CSV_20260903T022829Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/cs600_20260903T0230Z/stage/CANDSSW1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ },
+ {
+  "corpus": "S1O_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/cs600h3_20260903T0330Z/exam_full/cs600h3/cs600h3_CS600H3_H3V_20260903T053202Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run",
+   "+VERT_OFFSET_DOWN_M: float = 0.25       # VERTOFF-20260902 OVERLAY: down-offset armed for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/cs600h3_20260903T0330Z/stage/CANDSSW1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ },
+ {
+  "corpus": "S1_s025",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/exam_bench1/s1abl/s1abl_S1ABL_S1A25_20260915T052000Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/stage/S1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ },
+ {
+  "corpus": "S1_s035",
+  "resolves_to": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/exam_bench2/s1abl/s1abl_S1ABL_S1A35_20260915T052118Z",
+  "overlay_dose": 1.0,
+  "overlay_plus_lines": [
+   "+CRRL_BPC_FLOOR_NEG: tuple = (0.25, 0.0, 1.00)   # GUARDSPIKE-818-R6 OVERLAY: alt-NEG floor opened for ONE exam; REVERTED after the run"
+  ],
+  "venue_ckpt": "/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/stage/S1/protected/model_final.zip",
+  "venue_ckpt_sha256": "34c7f1161a84c0665000dd3960232fddba6690483cb93632e365e7b45449fb1c"
+ }
+]
