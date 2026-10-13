@@ -4,7 +4,7 @@
 
 | role | machine |
 |---|---|
-| Development and analysis | Windows 11, WSL2 running Ubuntu 22.04.5 LTS |
+| Development and analysis | Windows 11 laptop (16 cores, 110 GB memory), WSL2 running Ubuntu 22.04.5 LTS |
 | Training | AWS EC2 c7i.4xlarge (16 vCPUs), Ubuntu Server 24.04 LTS |
 | Benchmark (600-leg corpora) | AWS EC2 c7i.24xlarge (96 vCPUs, 24 simulators in parallel), Ubuntu Server 24.04 LTS |
 
@@ -36,13 +36,14 @@ by `tools/json_fdm/` (`SIMPLANE_PORT_SPEC.md` gives the port and message contrac
 | variable | meaning | default |
 |---|---|---|
 | `FLIGHTDOCK_CORPORA` | folder holding the twelve corpora (`<folder>/<corpus>/<cell>/<leg>/`) | `<repository>/corpora` |
-| `FLIGHTDOCK_BUCKET` | S3 address of the flight data, read by `scoring/tools/wind_table.py` | `s3://flightdock-reproduction-2026/` |
+| `FLIGHTDOCK_BUCKET` | address of the flight-data bucket, kept by `scoring/tools/wind_table.py` for a streaming path it does not use; no shipped script reads the bucket at run time | `s3://flightdock-reproduction-2026/` |
 
 ## Sizes and times
 
 | item | measured |
 |---|---|
-| Repository | about 75 MB |
+| Repository | about 70 MB |
 | Flight data in the bucket (twelve per-leg files per leg, 7,200 legs) | about 155 GB |
-| Re-scoring one corpus (600 legs) on the development machine | 40 to 45 minutes; the twelve ran in parallel |
+| Flying one corpus (600 legs, simulation) on the benchmark machine, 24 lanes on 96 vCPUs | about 10 hours (about 25 lane-minutes per leg; about 60 hours at 4 lanes) |
+| Re-scoring one corpus from its recorded legs (no simulation) on the development machine | 40 to 45 minutes each; the twelve ran in parallel on a 16-core laptop with 110 GB of memory |
 | Rebuilding every table and figure from the shipped results | a few minutes |

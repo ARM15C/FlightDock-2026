@@ -79,8 +79,10 @@ on any drift. The tables are written to `analysis/results_tables/RESULTS_TABLES.
 1. Download the twelve corpora from the bucket into one folder, keeping the layout `<folder>/<corpus>/<cell>/<leg>/`
    (corpus names `S1O_s025`, `S1O_s035`, `S1_s025`, `S1_s035`, `A2O_s025`, `A2O_s035`, `A2_s025`, `A2_s035`,
    `PIDO_s025`, `PIDO_s035`, `PID_s025`, `PID_s035`).
-2. Set `FLIGHTDOCK_CORPORA` to that folder (the analysis scripts default to `<repository>/corpora`) and, for
-   `scoring/tools/wind_table.py`, `FLIGHTDOCK_BUCKET` to the bucket address.
+2. Set `FLIGHTDOCK_CORPORA` to that folder (the analysis scripts default to `<repository>/corpora`). No shipped script reads
+   the bucket at run time. One tool, `scoring/tools/wind_table.py`, reads each leg's full simulator wind witness
+   (`fdm_witness.jsonl`, about 40 MB per leg); the bucket does not carry it, so that tool serves a fresh run of the
+   benchmark, which writes the witness. Its outputs for the benchmarked corpora are already under `results/`.
 3. Run the scoring chain into a fresh run directory: `scoring/tools/rescore_run.py --run-dir <dir>` (readouts),
    `scoring/tools/build_board.py --run-dir <dir>` (the per-leg board), `scoring/tools/ticklevel_run.py --run-dir <dir>`
    (tick-level safety files). `analysis/verify_20260918/verify_board.py` then checks a board against the shipped one.
