@@ -29,11 +29,11 @@ about 155 GB) are in a private S3 bucket, `s3://flightdock-reproduction-2026/`; 
 
 | arm | what flew |
 |---|---|
-| FlightDock-S1O | checkpoint S1 with the 0.25 m vertical setpoint offset (the policy of record) |
+| FlightDock-S1O | checkpoint S1 with the 0.25 m PTA vertical offset (post-training augmentation; the policy of record) |
 | FlightDock-S1 | checkpoint S1, no offset |
-| FlightDock-A2O | checkpoint A2 with the offset |
+| FlightDock-A2O | checkpoint A2 with the 0.25 m PTA vertical offset |
 | FlightDock-A2 | checkpoint A2, no offset |
-| PIDO | the PID-baseline with the offset (comparator) |
+| PIDO | the PID-baseline with the 0.25 m PTA vertical offset (comparator) |
 | PID-baseline | the PID formation controller alone (comparator) |
 
 Checkpoint hashes (SHA-256, also in `policies/*/SHAS.txt`):
@@ -76,9 +76,11 @@ on any drift. The tables are written to `analysis/results_tables/RESULTS_TABLES.
 
 ## Re-scoring from the flight data
 
-1. Download the twelve corpora from the bucket into one folder, keeping the layout `<folder>/<corpus>/<cell>/<leg>/`
-   (corpus names `S1O_s025`, `S1O_s035`, `S1_s025`, `S1_s035`, `A2O_s025`, `A2O_s035`, `A2_s025`, `A2_s035`,
-   `PIDO_s025`, `PIDO_s035`, `PID_s025`, `PID_s035`).
+1. Download the twelve corpora once and work from your copy (the bucket is Requester Pays, so the download is billed to
+   your AWS account): `aws s3 sync s3://flightdock-reproduction-2026/corpora/ <folder>/ --request-payer requester`. This keeps
+   the layout `<folder>/<corpus>/<cell>/<leg>/` (corpus names `S1O_s025`, `S1O_s035`, `S1_s025`, `S1_s035`, `A2O_s025`,
+   `A2O_s035`, `A2_s025`, `A2_s035`, `PIDO_s025`, `PIDO_s035`, `PID_s025`, `PID_s035`). Then rebuild each leg's
+   `paired/env0` link, which S3 cannot store; the command is in the bucket's `README.md`.
 2. Set `FLIGHTDOCK_CORPORA` to that folder (the analysis scripts default to `<repository>/corpora`). No shipped script reads
    the bucket at run time. One tool, `scoring/tools/wind_table.py`, reads each leg's full simulator wind witness
    (`fdm_witness.jsonl`, about 40 MB per leg); the bucket does not carry it, so that tool serves a fresh run of the
@@ -86,6 +88,28 @@ on any drift. The tables are written to `analysis/results_tables/RESULTS_TABLES.
 3. Run the scoring chain into a fresh run directory: `scoring/tools/rescore_run.py --run-dir <dir>` (readouts),
    `scoring/tools/build_board.py --run-dir <dir>` (the per-leg board), `scoring/tools/ticklevel_run.py --run-dir <dir>`
    (tick-level safety files). `analysis/verify_20260918/verify_board.py` then checks a board against the shipped one.
+
+### Checking a corpus before scoring
+
+`analysis/eda_20260918/census.py` checks a set of corpora without computing any result: for every leg, which files are
+present, whether its `paired/env0` link exists, whether stage, seed and trajectory agree across the leg's own records,
+which checkpoint flew and whether its σ gate passed; per corpus, the settings the exam applied. `summarize.py` turns the
+census into a short report, including whether all corpora share the same stage, seed and trajectory keys. Both read
+`FLIGHTDOCK_CORPORA`:
+
+```
+python analysis/eda_20260918/census.py --out <dir>
+python analysis/eda_20260918/summarize.py --out <dir>
+```
+
+The census of the twelve benchmarked corpora ships as `analysis/eda_20260918/CENSUS_legs.csv` and `CENSUS_config.json`,
+the reference for a fresh run. On a copy downloaded from the bucket the census still runs and reports the file types the
+bucket does not carry (simulator wind witness, lane logs, reward-term declarations, epoch stamps, run-level exam
+witnesses) as absent.
+
+The census keeps each leg's checkpoint path as the exam recorded it, so it shows the folder names of the development machine
+(for example `/home/ubuntu/FlightDock/analysis/s1abl_20260915T0400Z/stage/S1/protected/`). They are working labels from the
+development machine and the exam manifests in the bucket show the same names.
 
 The scoring tools and the four digest-pinned instruments under `scoring/instruments/` are shipped exactly as they ran
 (their SHA-256 digests are in `results/run_20260918T2208Z/INSTRUMENT_SHAS.json`). They name the paths of the machine
@@ -111,7 +135,7 @@ refuse. A reader who wants to re-fly uses them as the specification and drives t
 
 The chain, in order: the seed plan writes the seed-cell table and the slot manifest (`armblad*_seed_plan.py`,
 `armblad*_manifest.py`; the shipped copies are in `benchmark/seed_tables/`); a fire script (`*_fire.sh`) checks its gates
-and starts the exam driver (`*_overlay_exam.py`, which applies the arm's knobs: the 0.25 m vertical setpoint offset for
+and starts the exam driver (`*_overlay_exam.py`, which applies the arm's knobs: the 0.25 m PTA vertical offset for
 the offset arms, a zero action scale for PIDO); the driver starts the wave (`bench600_exam_wave.py`), which deals the
 600 rows across the lanes and runs `scripts/curriculum_eval_spawner.py` once per leg; after each leg
 `bench600_sigma_hook.py` checks the realized turbulence against the commanded σ. The PID-baseline used its own driver and
@@ -151,8 +175,9 @@ interface in its header.
 The bucket holds, for every leg of the twelve corpora, the twelve per-leg files the scoring chain reads (results,
 metrics, σ gate, leg metadata, safety summary, manifests, run summaries, success metrics, transition log, paired
 channels, flight state). Layout: `s3://flightdock-reproduction-2026/corpora/<corpus>/<cell>/<leg>/...`, the same tree
-as the results files name. A SHA-256 manifest of every object is at the bucket root. The bucket is private; request
-access from the repository owner.
+as the results files name; the bucket's `README.md` describes the two cell layouts and the one link to rebuild. A SHA-256
+manifest of every object is at the bucket root. The bucket is private and Requester Pays; request access from the
+repository owner.
 
 ## Training and tuning records
 
